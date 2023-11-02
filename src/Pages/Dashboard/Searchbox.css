@@ -1,0 +1,109 @@
+.cont1 {
+    height: 2.5rem;
+    width: 51%;
+    margin-left: 15%; 
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.inp {
+    height: 2.5rem;
+    width: 85%;
+    color: '#A1A1A1';
+    background-color: '#FFFFFF';
+    padding: '0 1rem 0 1rem';
+    border: '1px solid #A1A1A1';
+    padding: 0 2rem 0 1rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.send-icon {
+    margin-left: -1.7rem;
+    cursor: pointer;
+    color: gray;
+}
+
+.pop-up {
+    position: fixed;
+    width: 45%;
+    height: 37rem;
+    top: 47%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    color: black;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+
+}
+.mygraph{
+    height: 17rem;
+    width: 100%;
+}
+.mygraph img{
+  height: 17rem;
+  max-width: 100%;
+}
+.maximum-size {
+    position: fixed;
+    height: auto;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    color: black;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+.pointer-icon{
+    cursor: pointer;
+}
+.full-div {
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.pop-up-L-icons {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.pop-up-R-icons {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.search-val {
+    height: 5rem;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: gray;
+}
+
+p {
+    margin: 0;
+    padding-left: 5px;
+}
+
